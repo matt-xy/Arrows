@@ -12,3 +12,4 @@ C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\refint\Arrows.dll
 C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\Arrows.pdb
 C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\Arrows.genruntimeconfig.cache
 C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\ref\Arrows.dll
+C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\Arrows.sourcelink.json

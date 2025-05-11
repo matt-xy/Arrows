@@ -4,10 +4,25 @@
     {
         static void Main(string[] args)
         {
-            Arrow arrow = GetArrow();
-            Console.WriteLine($"The arrow costs {arrow.Cost} gold.");
+            Console.WriteLine("What arrow do you want?");
+            Console.WriteLine("1 - Elite Arrow");
+            Console.WriteLine("2 - Beginner Arrow");
+            Console.WriteLine("3 - Marksman Arrow");
+            Console.WriteLine("4 - Custom Arrow");
 
-            Arrow GetArrow()
+            string choice = Console.ReadLine();
+
+            Arrow arrow = choice switch
+            {
+                "1" => Arrow.CreateEliteArrow(),
+                "2" => Arrow.CreateBeginnerArrow(),
+                "3" => Arrow.CreateMarksmanArrow(),
+                _ => CreateCustomArrow(),
+            };
+
+            Console.WriteLine($"That arrow costs {arrow.Cost} gold.");
+
+            Arrow CreateCustomArrow()
             {
                 Arrowhead arrowhead = GetArrowheadType();
                 Fletching fletching = GetFletchingType();
@@ -61,12 +76,19 @@
         private Fletching Fletching { get; }
         private float Length { get; }
 
+        // Constructor
         public Arrow(Arrowhead arrowhead, Fletching fletching, float length)
         {
             Arrowhead = arrowhead;
             Fletching = fletching;
             Length = length;
         }
+
+        public static Arrow CreateEliteArrow() => new Arrow(Arrowhead.Steel, Fletching.Plastic, 95f);
+
+        public static Arrow CreateBeginnerArrow() => new Arrow(Arrowhead.Wood, Fletching.GooseFeathers, 75f);
+
+        public static Arrow CreateMarksmanArrow() => new Arrow(Arrowhead.Steel, Fletching.Plastic, 65f);
 
         public float Cost
         {
