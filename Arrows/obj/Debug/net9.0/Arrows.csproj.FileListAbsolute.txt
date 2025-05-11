@@ -1,0 +1,14 @@
+C:\dev\repos\Arrows\Arrows\bin\Debug\net9.0\Arrows.exe
+C:\dev\repos\Arrows\Arrows\bin\Debug\net9.0\Arrows.deps.json
+C:\dev\repos\Arrows\Arrows\bin\Debug\net9.0\Arrows.runtimeconfig.json
+C:\dev\repos\Arrows\Arrows\bin\Debug\net9.0\Arrows.dll
+C:\dev\repos\Arrows\Arrows\bin\Debug\net9.0\Arrows.pdb
+C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\Arrows.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\Arrows.AssemblyInfoInputs.cache
+C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\Arrows.AssemblyInfo.cs
+C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\Arrows.csproj.CoreCompileInputs.cache
+C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\Arrows.dll
+C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\refint\Arrows.dll
+C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\Arrows.pdb
+C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\Arrows.genruntimeconfig.cache
+C:\dev\repos\Arrows\Arrows\obj\Debug\net9.0\ref\Arrows.dll
